@@ -1,0 +1,81 @@
+{
+	
+	"noise" : {
+		"btn-close-register" : "xpath://div[contains(@class,'registerOrLogin')]//*[@name='close']",
+		"btn-accept-cookies" : "xpath://button[contains(@class,'acceptCookies')]",
+		"cntr-cookies" : "xpath://app-accept-cookies",
+		"cntr-registration" : "xpath://app-register-or-login"
+		
+		
+	},
+	
+	"portal-pages" : {
+		"live-schedule" : {
+			"drpdn-schedule-filters" : {
+				
+				"btn-drpdn-all-match" : "xpath://div[contains(@class,'scheduleFilters_sports')]",
+				"btn-drpdn-soccer" : "xpath://div[contains(@class,'scheduleFilters')]//img[contains(@class,'SOCCER_MATCH')]",
+				"btn-drpdn-basket" : "xpath://div[contains(@class,'scheduleFilters')]//img[contains(@class,'BASKETBALL_GAME')]",
+				"btn-drpdn-tennis" : "xpath://div[contains(@class,'scheduleFilters')]//img[contains(@class,'TENNIS_SINGLES_MATCH')]",
+				"btn-drpdn-tTennis" : "xpath://div[contains(@class,'scheduleFilters')]//img[contains(@class,'TABLE_TENNIS_SINGLES_MATCH ')]",
+				"btn-drpdn-volley" : "xpath://div[contains(@class,'scheduleFilters')]//img[contains(@class,'VOLLEYBALL_GAME')]",
+				"btn-drpdn-baseball" : "xpath://div[contains(@class,'scheduleFilters')]//img[contains(@class,'BASEBALL_GAME')]",
+				"btn-drpdn-cricket" : "xpath://div[contains(@class,'scheduleFilters')]//img[contains(@class,'CRICKET_MATCH')]",
+				"btn-drpdn-lol" : "xpath://div[contains(@class,'scheduleFilters')]//img[contains(@class,'LEAGUE_OF_LEGENDS_MATCH')]",
+				"btn-drpdn-cs" : "xpath://div[contains(@class,'scheduleFilters')]//img[contains(@class,'COUNTER_STRIKE_GO_MATCH')]",
+				"btn-drpdn-dota" : "xpath://div[contains(@class,'scheduleFilters')]//img[contains(@class,'DOTA_MATCH')]",
+				"btn-drpdn-rugby" : "xpath://div[contains(@class,'scheduleFilters')]//img[contains(@class,'RUGBY_GAME')]",
+				"btn-drpdn-vtennis" : "xpath://div[contains(@class,'scheduleFilters')]//img[contains(@class,'VIRTUAL_TENNIS_SINGLES_MATCH')]",
+				"btn-drpdn-horseRace" : "xpath://div[contains(@class,'scheduleFilters')]//img[contains(@class,'HORSE_RACING_RACE')]"		
+			},
+			"tbl-matches" : {
+				"lbl-scheduled-time" : "xpath://div[contains(@class,'eventRowTime')]",
+				"img-scheduled-match" : "xpath://div[contains(@class,'eventRow')]//img",
+				"lbl-match-team-home" : "xpath://div[@class='eventRow_home']",
+				"lbl-match-team-away" : "xpath://div[@class='eventRow_away']",
+				"lbl-scheduled-time-template" : "(//div[contains(@class,'eventRowTime')])[{index}]",
+				"lbl-match-team-home-template" : "(//div[@class='eventRow_home'])[{index}]",
+				"lbl-match-team-away-template" : "(//div[@class='eventRow_away'])[{index}]"
+					
+			}
+		
+			
+		},
+		"live-betting" : {
+			"cntr-category" : "//cm-card-body[contains(@class,'live')]",
+			"cntr-category-template" : "(//cm-card-body[contains(@class,'live')])[{index}]",
+			"cntr-match" : "xpath://div[contains(@class,'live')]//div[contains(@class,'eventRow_match')]",
+			"tbl-matches" : {
+				"lbl-match-team-home" : "xpath:(//cm-card-body[contains(@class,'live')])[{cat}]//div[@class='eventRow_home']",
+				"lbl-match-team-away" : "xpath:(//cm-card-body[contains(@class,'live')])[{cat}]//div[@class='eventRow_away']",
+				"lbl-match-team-home-template" : "((//cm-card-body[contains(@class,'live')])[{cat}]//div[@class='eventRow_home'])[{index}]",
+				"lbl-match-team-away-template" : "((//cm-card-body[contains(@class,'live')])[{cat}]//div[@class='eventRow_away'])[{index}]"
+					
+			},
+			"live-filters" : {
+				"btn-active-filter" : "xpath://div[contains(@class,'sbCarouselItem')][contains(@class,'active')]//*[contains(@alt,'{match_id}')]",
+				"btn-soccer" : "xpath://div[contains(@class,'sbCarouselItem')]//*[contains(@alt,'SOCCER_MATCH')]",
+				"btn-basket" : "xpath://div[contains(@class,'sbCarouselItem')]//*[contains(@alt,'BASKETBALL_GAME')]",
+				"btn-tennis" : "xpath://div[contains(@class,'sbCarouselItem')]//*[contains(@alt,'TENNIS_SINGLES_MATCH')]",
+				"btn-tTennis" : "xpath://div[contains(@class,'sbCarouselItem')]//*[contains(@alt,'TABLE_TENNIS_SINGLES_MATCH')]",
+				"btn-volley" : "xpath://div[contains(@class,'sbCarouselItem')]//*[contains(@alt,'VOLLEYBALL_GAME')]",
+				"btn-baseball" : "xpath://div[contains(@class,'sbCarouselItem')]//*[contains(@alt,'BASEBALL_GAME')]",
+				"btn-cricket" : "xpath://div[contains(@class,'sbCarouselItem')]//*[contains(@alt,'CRICKET_MATCH')]",
+				"btn-lol" : "xpath://div[contains(@class,'sbCarouselItem')]//*[contains(@alt,'LEAGUE_OF_LEGENDS_MATCH')]",
+				"btn-cs" : "xpath://div[contains(@class,'sbCarouselItem')]//*[contains(@alt,'COUNTER_STRIKE_GO_MATCH')]",
+				"btn-dota" : "xpath://div[contains(@class,'sbCarouselItem')]//*[contains(@alt,'DOTA_MATCH')]",
+				"btn-rugby" : "xpath://div[contains(@class,'sbCarouselItem')]//*[contains(@alt,'RUGBY_GAME')]",
+				"btn-vtennis" : "xpath://div[contains(@class,'sbCarouselItem')]//*[contains(@alt,'VIRTUAL_TENNIS_SINGLES_MATCH')]",
+				"btn-horseRace" : "xpath://div[contains(@class,'sbCarouselItem')]//*[contains(@alt,'HORSE_RACING_RACE')]"
+				
+			}
+			
+			
+		}
+		
+		
+	}
+	
+	
+	
+}

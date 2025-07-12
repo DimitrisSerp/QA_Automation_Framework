@@ -1,0 +1,12 @@
+{
+    "comment": "This is the configuration file for environment",
+    
+    "name": "live-schedule",
+    "url_schedule": "https://www.novibet.gr/live-programma",
+	"url_live": "https://www.novibet.gr/stoixima-live",
+    
+    "configuration-file-locators": "locators.json",       
+    
+    "folder-translations": "Localization",
+    "translations-file-page-texts": "Page_texts.json"
+}
