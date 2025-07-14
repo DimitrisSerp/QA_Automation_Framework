@@ -65,4 +65,4 @@ Check Match Status
 Go to Live Schedule Page
     [Documentation]    Opens new window in live-betting url as it is specified in _Specs.json_ .
     Go To    ${cf_SPECS}[url_schedule]
-    Wait Until Page Contains Item    ${lc_LOCATORS['portal-pages']['live-schedule']}[btn-drpdn-all-match]
+    Wait Until Page Contains Item    ${lc_LOCATORS['portal-pages']['live-schedule']['drpdn-schedule-filters']}[btn-drpdn-all-match]
